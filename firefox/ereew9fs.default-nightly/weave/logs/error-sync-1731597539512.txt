@@ -1,0 +1,19 @@
+1731597534471	Sync.LogManager	DEBUG	Flushing file log
+1731597534472	Sync.LogManager	DEBUG	Log cleanup threshold time: 1730733534472
+1731597534502	Sync.LogManager	DEBUG	Done deleting files.
+1731597537600	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731597539485	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1731597539485	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1731597539493	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731597539494	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241113094833.desktop
+1731597539494	Sync.Service	INFO	Starting sync at 2024-11-14 15:18:59 in browser session qP6dtgeQpkt0
+1731597539494	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731597539496	Sync.Status	INFO	Resetting Status.
+1731597539497	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1731597539497	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731597539509	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1731597539509	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1731597539509	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1731597539509	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1731597539510	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1731597539511	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

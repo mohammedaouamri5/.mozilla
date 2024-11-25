@@ -1,0 +1,319 @@
+1731141970655	FirefoxAccounts	TRACE	initializing new storage manager
+1731141970655	FirefoxAccounts	TRACE	starting fetch of json user data
+1731141970661	FirefoxAccounts	TRACE	finished fetch of json user data - took: 6
+1731141970662	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1731141970662	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1731141970669	FirefoxAccounts	DEBUG	secure read fetched items: ["scopedKeys"]
+1731141970669	FirefoxAccounts	TRACE	initializing of new storage manager done
+1731141970683	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1731141970719	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com
+1731141970874	Sync.Status	INFO	Resetting Status.
+1731141970874	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1731141970874	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1731141970874	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731141970875	Sync.Service	INFO	Loading Weave 1.136.0
+1731141970875	Sync.Engine.Clients	DEBUG	Engine constructed
+1731141970875	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1731141970878	Sync.Engine.Addons	DEBUG	Engine constructed
+1731141970907	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1731141970928	Sync.Engine.Passwords	DEBUG	Engine constructed
+1731141970978	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Initialized
+1731141970978	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1731141970978	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731141970978	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731141970978	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731141970978	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1731141970992	FirefoxAccounts	INFO	fetching updated device list
+1731141971010	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1729327570993
+1731141971030	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1731141971031	Sync.Engine.Prefs	DEBUG	Engine constructed
+1731141971068	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1731141971082	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1731141971083	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1731141971085	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1731141971094	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1731141971096	Sync.Engine.Forms	DEBUG	Engine constructed
+1731141971152	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1731141971154	Sync.Engine.History	DEBUG	Engine constructed
+1731141971182	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1731141971184	Sync.Engine.Tabs	DEBUG	Engine constructed
+1731141971217	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1731141971220	Sync.Engine.Tabs	INFO	Got a bridged engine!
+1731141971222	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1731141971226	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1731141971228	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1731141971234	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1731141971234	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+1731141971235	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1731141971235	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1731141971235	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1731141971238	FirefoxAccounts	TRACE	Command queue observer created
+1731141971238	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141971238	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141971239	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1731141971239	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1731141971240	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1731141971241	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241108155652.desktop
+1731141971241	Sync.Service	INFO	Starting sync at 2024-11-09 08:46:11 in browser session RRdBW67OUHvn
+1731141971241	Sync.Service	DEBUG	In sync: should login.
+1731141971241	Sync.Service	INFO	User logged in successfully - verifying login.
+1731141971241	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1731141971241	Sync.Status	DEBUG	Status.login: success.login => success.status_ok
+1731141971241	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1731141971241	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1731141971241	Sync.SyncAuthManager	INFO	Getting sync key
+1731141971241	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731141971241	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731141971241	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731141971241	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1731141971241	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1731141971241	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1731141971242	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1731141971409	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 401
+1731141971409	FirefoxAccounts	INFO	Fetching the profile returned a 401 - revoking our token and retrying
+1731141971410	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/destroy
+1731141971410	Services.Common.RESTRequest	DEBUG	POST Length: 900
+1731141971411	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1731141971411	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141971411	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141971411	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731141971413	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1731141971413	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1731141971413	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1731141971416	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1731141971417	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1731141971417	Services.Common.RESTRequest	DEBUG	POST Length: 81
+1731141971794	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 401
+1731141971794	Services.Common.TokenServerClient	DEBUG	Got token response: 401
+1731141971794	Services.Common.TokenServerClient	INFO	Server-reported error: {"location":"body","name":"","description":"Unauthorized"}
+1731141971795	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/destroy
+1731141971795	Services.Common.RESTRequest	DEBUG	POST Length: 969
+1731141971795	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1731141971795	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141971795	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141971795	Sync.SyncAuthManager	WARN	Token server returned 401, retrying token fetch with fresh credentials
+1731141971795	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731141971796	FirefoxAccounts	TRACE	finished write of json user data - took: 1
+1731141971796	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1731141971796	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1731141971797	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1731141971855	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1731141971855	Services.Common.RESTRequest	DEBUG	POST Length: 127
+1731141975433	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1731141975642	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731141976618	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1731141976618	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: 
+1731141976618	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 31382
+1731141976618	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/destroy 200
+1731141976618	Hawk	DEBUG	(Response) /oauth/destroy: code: 200 - Status text: 
+1731141976619	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 31381
+1731141976619	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1731141976619	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1731141976619	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 31381
+1731141976640	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1731141976640	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: 
+1731141976640	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 31360
+1731141976640	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1731141976640	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141976640	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141976640	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1731141976640	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1731141976640	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1731141976641	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1731141976677	FirefoxAccounts	TRACE	finished write of json user data - took: 37
+1731141976677	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1731141976677	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1731141976679	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1731141976767	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token 200
+1731141976767	Hawk	DEBUG	(Response) /oauth/token: code: 200 - Status text: 
+1731141976767	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 31233
+1731141976767	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1731141976767	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141976767	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","encryptedSendTabKeys","encryptedCloseTabKeys","profileCache"]
+1731141976767	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1731141976768	FirefoxAccounts	TRACE	finished write of json user data - took: 1
+1731141976768	FirefoxAccounts	DEBUG	writing secure storage: ["scopedKeys"]
+1731141976768	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1731141976770	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1731141976992	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1729327570993 200
+1731141976992	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1729327570993: code: 200 - Status text: 
+1731141976992	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 31008
+1731141976992	FirefoxAccounts	INFO	Got new device list: db6c691daecad3c0f1765880a2c6f105, de57f5129fd85e34a6339c15c5e92d78
+1731141976993	FirefoxAccounts	DEBUG	FxAccountsPush loading service
+1731141976993	FirefoxAccounts	DEBUG	FxAccountsPush initialized
+1731141976994	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141976994	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141976994	FirefoxAccounts	TRACE	Our push subscription looks OK
+1731141976994	FirefoxAccounts	INFO	updating the cache
+1731141977077	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1731141977673	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1731141977673	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1731141977673	Services.Common.TokenServerClient	DEBUG	Successful token response
+1731141977673	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1731141977674	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1731141977674	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1731141977674	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141977674	Sync.SyncAuthManager	DEBUG	_findCluster returning https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/
+1731141977674	Sync.SyncAuthManager	DEBUG	Cluster value = https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/
+1731141977674	Sync.SyncAuthManager	DEBUG	Setting cluster to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/
+1731141977674	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/
+1731141977674	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141977674	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141977674	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141977904	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731141979328	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/collections
+1731141979328	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/configuration
+1731141979329	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141979535	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/configuration
+1731141979535	Sync.Service	DEBUG	Fetching global metadata record
+1731141979535	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141979955	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/meta/global
+1731141979956	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1729687725.36
+1731141979956	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141980309	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/meta/global
+1731141980309	Sync.Service	DEBUG	Weave Version: 1.136.0 Local Storage: 5 Remote Storage: 5
+1731141980309	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1731141980309	Sync.Service	INFO	Testing info/collections: {"tabs":1731112071.12,"extension-storage":1731078847.55,"prefs":1730918278.45,"forms":1731088409.6,"addons":1730222268.46,"clients":1731050581.62,"history":1731111433.82,"passwords":1731085395.84,"bookmarks":1729687727.54,"meta":1729687725.36,"crypto":1729687059.5}
+1731141980309	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1731141980309	Sync.Service	INFO	collection keys reports that a key update is needed.
+1731141980309	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141980468	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141980469	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141980480	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1731141980480	Sync.Engine.Tabs	WARN	Error creating record: Error: A key bundle must be supplied to encrypt.(resource://services-sync/record.sys.mjs:225:13) JS Stack trace: encrypt@record.sys.mjs:225:13
+_uploadOutgoing@engines.sys.mjs:1905:21
+1731141980481	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1731141980532	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/crypto/keys
+1731141980532	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1731141980533	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1729687059.5.
+1731141980533	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1731141980533	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1731141980533	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1731141980533	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1731141980533	Sync.CollectionKeyManager	INFO	Bumping last modified to 1729687059.5
+1731141980533	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1731141980533	Sync.Status	DEBUG	Status.login: success.login => success.login
+1731141980533	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1731141980533	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/
+1731141980533	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731141980538	Sync.Status	INFO	Resetting Status.
+1731141980538	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1731141980539	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141980782	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/collections?v=1.136.0
+1731141980782	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/configuration
+1731141980783	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141980988	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/configuration
+1731141980988	Sync.Service	DEBUG	Fetching global metadata record
+1731141980988	Sync.Service	DEBUG	Weave Version: 1.136.0 Local Storage: 5 Remote Storage: 5
+1731141980988	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1731141980988	Sync.Service	INFO	Testing info/collections: {"meta":1729687725.36,"tabs":1731112071.12,"forms":1731088409.6,"crypto":1729687059.5,"history":1731111433.82,"bookmarks":1729687727.54,"prefs":1730918278.45,"extension-storage":1731078847.55,"clients":1731050581.62,"addons":1730222268.46,"passwords":1731085395.84}
+1731141980988	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1729687059.5
+1731141980988	Sync.Synchronizer	DEBUG	Refreshing client list.
+1731141980989	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1731141980989	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1731141980989	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141981218	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/clients?full=1&limit=1000
+1731141981261	Sync.Engine.Clients	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 1 reconciled.
+1731141981261	FirefoxAccounts	INFO	Device list cache is fresh, re-using it
+1731141981261	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1731141981262	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141981262	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141981264	Sync.Engine.Clients	INFO	Uploading 1 outgoing records
+1731141981264	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141981264	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141981266	Sync.Engine.Clients	INFO	Posting 1 records of 506 bytes with batch=true
+1731141981266	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141981267	Sync.Collection	DEBUG	POST Length: 506
+1731141981573	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/clients?batch=true&commit=true
+1731141981574	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=clients, subject=null
+1731141981574	Sync.SyncScheduler	DEBUG	Client count: 0 -> 2
+1731141981575	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1731141981575	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1731141981576	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141981576	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1731141981576	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=prefs, subject=null
+1731141981581	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141981581	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1731141981582	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=passwords, subject=null
+1731141981585	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731141981585	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731141982997	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141983232	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/tabs?full=1&limit=1000
+1731141983417	Sync.Engine.Tabs	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141983418	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1731141983419	Sync.Engine.Tabs	INFO	Posting 1 records of 8683 bytes with batch=true
+1731141983419	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731141983419	Sync.Collection	DEBUG	POST Length: 8683
+1731141983752	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/tabs?batch=true&commit=true
+1731141983932	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=tabs, subject=null
+1731141983935	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID 13rI2fpBfEDr matches existing
+1731141983942	FirefoxAccounts	INFO	checking if the command queue is empty now we are idle
+1731141983949	FirefoxAccounts	TRACE	flushQueue total queued items: 0
+1731141983949	FirefoxAccounts	INFO	No new close-tab timer needed
+1731141983949	FirefoxAccounts	INFO	pending command check had no commands
+1731141984312	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141984312	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1731141984319	Sync.Engine.Bookmarks.Mirror	DEBUG	Building local tree
+1731141984323	Sync.Engine.Bookmarks.Mirror	DEBUG	Building remote tree
+1731141984328	Sync.Engine.Bookmarks.Mirror	DEBUG	Building merged tree
+1731141984329	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying merged tree
+1731141984329	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 16.441ms
+1731141984329	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1731141984329	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1731141984329	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1731141984330	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1731141984330	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Enhancer for YouTube™ (version=2.0.126.1, id=enhancerforyoutube@maximerf.addons.mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.60.0, id=uBlock0@raymondhill.net)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Userchrome Toggle Extended (version=2.0.1, id=userchrome-toggle-extended@n2ezr.ru)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Sidebery (version=5.2.0, id={3c078156-979c-498b-8990-85f7987dd929})
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Color (version=2.1.7, id=FirefoxColor@mozilla.com)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Screenshots (version=39.0.1, id=screenshots@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon WebCompat Reporter (version=2.1.0, id=webcompat-reporter@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.4.1, id=default-theme@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=2.0.0, id=addons-search-detection@mozilla.com)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.3, id=firefox-compact-light@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.3.2, id=firefox-compact-dark@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.4, id=firefox-alpenglow@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Video DownloadHelper (version=9.1.0.44, id={b9db16a4-6edc-47ec-a1f4-b86292ed211d})
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader (version=4.9.96, id=addon@darkreader.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Tree Style Tab (version=4.0.24, id=treestyletab@piro.sakura.ne.jp)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=134.2.0, id=webcompat@mozilla.org)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.3.2, id=gmp-gmpopenh264)
+1731141984330	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=4.10.2830.0, id=gmp-widevinecdm)
+1731141984331	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1731141984333	Sync.Engine.Addons.Store	DEBUG	gmp-widevinecdm not syncable: type not in allowed list: plugin
+1731141984333	Sync.Engine.Addons.Store	DEBUG	gmp-widevinecdm-l1 not syncable: type not in allowed list: plugin
+1731141984333	Sync.Engine.Addons.Store	DEBUG	gmp-widevinecdm-l1 not syncable: type not in allowed list: plugin
+1731141984333	Sync.Engine.Addons.Store	DEBUG	gmp-widevinecdm not syncable: type not in allowed list: plugin
+1731141984334	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141984334	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1731141984342	Sync.Engine.CreditCards	DEBUG	First sync, uploading all items
+1731141984342	Sync.Engine.CreditCards	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141984343	Sync.Engine.CreditCards	INFO	Uploading 0 outgoing records
+1731141984346	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141984346	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1731141984346	Sync.Engine.History	DEBUG	Checking if server sync ID cRC5s_xRq_BG matches existing
+1731141984351	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141984351	Sync.Engine.History	INFO	Uploading 0 outgoing records
+1731141984353	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731141984354	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1731141984356	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1731141984356	Sync.Doctor	INFO	Skipping validation of passwords: Probability threshold not met
+1731141984356	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1731141984357	Sync.Doctor	INFO	Skipping validation of bookmarks: Probability threshold not met
+1731141984357	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1731141984357	Sync.Doctor	INFO	Skipping check of creditcards - disabled via preferences
+1731141984357	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1731141984357	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1731141984357	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1731141984357	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1731141984357	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1731141984357	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1731141984357	Sync.Synchronizer	INFO	Sync completed at 2024-11-09 08:46:24 after 3.82 secs.
+1731141984357	Sync.Declined	DEBUG	Handling remote declined: []
+1731141984357	Sync.Declined	DEBUG	Handling local declined: []
+1731141984357	Sync.Declined	DEBUG	Declined changed? false
+1731141984357	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.

@@ -1,0 +1,12 @@
+1729686054982	SessionStore.LogManager	DEBUG	Flushing file log
+1729686054983	SessionStore.LogManager	DEBUG	Log cleanup threshold time: 1728822054983
+1729686055002	SessionStore.LogManager	DEBUG	Done deleting files.
+1729686096752	SessionStore	WARN	Discarding window with 0 saveable tabs and 0 closed tabs
+1729686096789	SessionStore	WARN	Discarding window with 0 saveable tabs and 0 closed tabs
+1729686188367	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1729686497654	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1729686505347	SessionStore	WARN	Discarding window with 0 saveable tabs and 0 closed tabs
+1729686505438	SessionStore	WARN	Discarding window with 0 saveable tabs and 0 closed tabs
+1729686734146	SessionStore	WARN	Discarding window with 0 saveable tabs and 0 closed tabs
+1729686734202	SessionStore	WARN	Discarding window with 0 saveable tabs and 0 closed tabs
+1729686736280	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window

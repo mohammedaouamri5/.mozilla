@@ -1,0 +1,81 @@
+1731745118256	Sync.LogManager	DEBUG	Flushing file log
+1731745118257	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1731745118263	Sync.LogManager	DEBUG	Log cleanup threshold time: 1730881118263
+1731745118292	Sync.LogManager	DEBUG	Done deleting files.
+1731749950537	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1731749950537	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731749950540	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1731749950549	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731749950571	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1731749950585	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1731749950585	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1731749950586	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731749952586	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241114095720.desktop
+1731749952586	Sync.Service	INFO	Starting sync at 2024-11-16 09:39:12 in browser session CudxyST0GdAd
+1731749952587	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731749952594	Sync.Status	INFO	Resetting Status.
+1731749952594	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1731749952595	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1731749952595	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731749952595	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731749952595	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731749952596	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1731749952597	Sync.SyncAuthManager	INFO	Getting sync key
+1731749952597	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731749952597	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731749952597	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731749952597	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1731749952597	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1731749952597	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1731749952597	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1731749952621	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1731749952621	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1731749952628	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1731749952628	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+openPromptSync@Prompter.sys.mjs:1082:17
+confirmEx@Prompter.sys.mjs:1517:10
+confirmEx@Prompter.sys.mjs:303:14
+warnAboutClosingTabs@tabbrowser.js:3679:30
+warnAboutClosingWindow@browser.js:5885:16
+closeWindow@globalOverlay.js:29:8
+WindowIsClosing@browser.js:5813:8
+1731749952629	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1731749952629	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1731749952629	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731749952630	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+openPromptSync@Prompter.sys.mjs:1082:17
+confirmEx@Prompter.sys.mjs:1517:10
+confirmEx@Prompter.sys.mjs:303:14
+warnAboutClosingTabs@tabbrowser.js:3679:30
+warnAboutClosingWindow@browser.js:5885:16
+closeWindow@globalOverlay.js:29:8
+WindowIsClosing@browser.js:5813:8
+1731749952630	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731749952630	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731749952636	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://gre/modules/Prompter.sys.mjs :: openPromptSync :: line 1082"  data: no] Stack trace: openPromptSync()@resource://gre/modules/Prompter.sys.mjs:1082
+confirmEx()@resource://gre/modules/Prompter.sys.mjs:1517
+confirmEx()@resource://gre/modules/Prompter.sys.mjs:303
+warnAboutClosingTabs()@tabbrowser.js:3679
+warnAboutClosingWindow()@browser.js:5885
+closeWindow()@globalOverlay.js:29
+WindowIsClosing()@browser.js:5813
+1731749952636	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1731749952636	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1731749952636	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://gre/modules/Prompter.sys.mjs :: openPromptSync :: line 1082"  data: no] Stack trace: openPromptSync()@resource://gre/modules/Prompter.sys.mjs:1082
+confirmEx()@resource://gre/modules/Prompter.sys.mjs:1517
+confirmEx()@resource://gre/modules/Prompter.sys.mjs:303
+warnAboutClosingTabs()@tabbrowser.js:3679
+warnAboutClosingWindow()@browser.js:5885
+closeWindow()@globalOverlay.js:29
+WindowIsClosing()@browser.js:5813
+1731749952636	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1731749952637	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1731749952641	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://gre/modules/Prompter.sys.mjs :: openPromptSync :: line 1082"  data: no] Stack trace: openPromptSync()@resource://gre/modules/Prompter.sys.mjs:1082
+confirmEx()@resource://gre/modules/Prompter.sys.mjs:1517
+confirmEx()@resource://gre/modules/Prompter.sys.mjs:303
+warnAboutClosingTabs()@tabbrowser.js:3679
+warnAboutClosingWindow()@browser.js:5885
+closeWindow()@globalOverlay.js:29
+WindowIsClosing()@browser.js:5813

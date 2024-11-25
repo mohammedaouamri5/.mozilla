@@ -1,0 +1,19 @@
+1731777458484	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1731777458503	SessionStore	DEBUG	Successful file read of recovery file
+1731777458503	SessionStore	DEBUG	Completed SessionFile.read() with result.origin: recovery
+1731777458506	SessionStore	DEBUG	isAutomaticRestoreEnabled: true
+1731777458506	SessionStore	DEBUG	Previous shutdown ok? true, reason: final-state-write-incomplete
+1731777459320	SessionStore	DEBUG	initialState contains 0 pinned tabs
+1731777459537	SessionStore	DEBUG	initSession willRestore: true, SessionStartup.sessionType: 2
+1731777459537	SessionStore	DEBUG	initSession, will autorestore
+1731777459540	SessionStore	DEBUG	Restored 5 closed windows
+1731777459540	SessionStore	DEBUG	restoreWindows will restore 2 windows
+1731777459540	SessionStore	DEBUG	Opening window with features: chrome,suppressanimation,all,non-private,dialog=0,width=960,height=1051,screenX=45,screenY=45, argString: .
+1731777459724	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1731777459734	SessionStore	DEBUG	restoreWindow, will restore 1 tabs and 0 tab groups, restoreTabsLazily: true
+1731777459735	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 1 tabs
+1731777459755	SessionStore	WARN	waiting on 1 windows to be restored before sending restore complete notifications.
+1731777459755	SessionStore	DEBUG	restoreWindow, will restore 3 tabs and 0 tab groups, restoreTabsLazily: true
+1731777459759	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 3 tabs
+1731777459763	SessionStore	DEBUG	sessionstore-windows-restored
+1731777459804	SessionStore	DEBUG	All 1 windows restored

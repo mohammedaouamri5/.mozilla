@@ -1,0 +1,6 @@
+{"timestamp":10759240,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1729694366384"}}
+{"timestamp":10759324,"category":"protocolhandler.mailto","name":"visit","extra":{"triggered_externally":"true","glean_timestamp":"1729694366468"}}
+{"timestamp":10759817,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"add-an-image-to-pdf-with-alt-text-rollout","feature":"addAnImageInPDF","reason":"invalid-feature","glean_timestamp":"1729694366961"}}
+{"timestamp":10759818,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1729694366962"}}
+{"timestamp":10761920,"category":"urlbar","name":"abandonment","extra":{"actions":"none,none,none,none,none","n_chars":"0","glean_timestamp":"1729694369064","search_mode":"","interaction":"topsites","sap":"urlbar_newtab","n_words":"0","abandonment_type":"blur","groups":"top_site,top_site,top_site,top_site,top_site","n_results":"5","results":"top_site,top_site,top_site,top_site,top_site","search_engine_default_id":"google-b-d"}}
+{"timestamp":10802731,"category":"addons_manager","name":"manage","extra":{"addon_id":"gmp-gmpopenh264","method":"uninstall","source":"gmp-plugin","glean_timestamp":"1729694409875","addon_type":"other"}}

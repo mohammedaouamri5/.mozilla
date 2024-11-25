@@ -1,0 +1,181 @@
+1732118600937	Sync.LogManager	DEBUG	Flushing file log
+1732118600937	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1732118600942	Sync.LogManager	DEBUG	Log cleanup threshold time: 1731254600942
+1732118600945	Sync.LogManager	DEBUG	Done deleting files.
+1732118926586	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118931833	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1732118931863	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118931868	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1732118931948	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1732118931949	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1732118932055	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118942714	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118946121	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118946800	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118948358	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118948375	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118950397	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732118954732	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119063923	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119065960	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119070204	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119287938	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119336315	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119386856	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119394100	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119394639	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119395128	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1732119395170	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119395285	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119396578	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119540405	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119540418	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119612367	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119633598	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119633942	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119635135	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119636270	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119636640	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119637930	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732119684212	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121045225	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121229255	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121229366	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121769122	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121772248	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121777139	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121781700	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732121785966	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1732122201017	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241118092854.desktop
+1732122201017	Sync.Service	INFO	Starting sync at 2024-11-20 17:03:21 in browser session 6wg_tcY45jrN
+1732122201018	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1732122201026	Sync.Status	INFO	Resetting Status.
+1732122201026	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1732122201026	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1732122201026	FirefoxAccounts	DEBUG	getOAuthToken enter
+1732122201027	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1732122201027	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1732122201027	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1732122201028	Sync.SyncAuthManager	INFO	Getting sync key
+1732122201028	FirefoxAccounts	DEBUG	getOAuthToken enter
+1732122201029	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1732122201029	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1732122201029	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1732122201029	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1732122201029	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1732122201029	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1732122206348	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1732122206499	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1732122206499	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1732122206499	Services.Common.TokenServerClient	DEBUG	Successful token response
+1732122206499	Sync.Status	DEBUG	Status.login: success.login => success.login
+1732122206499	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1732122206500	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1732122206501	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1732122206501	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1732122211993	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264523642/info/collections
+1732122211994	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264523642/info/configuration
+1732122211994	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1732122212195	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264523642/info/configuration
+1732122212195	Sync.Service	DEBUG	Fetching global metadata record
+1732122212195	Sync.Service	DEBUG	Weave Version: 1.136.0 Local Storage: 5 Remote Storage: 5
+1732122212195	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1732122212195	Sync.Service	INFO	Testing info/collections: {"prefs":1732037402.46,"forms":1732118631.09,"passwords":1731959213.52,"addons":1731959214.16,"meta":1731953978.71,"clients":1732115017.86,"extension-storage":1732037403.73,"history":1732118631.58,"bookmarks":1731953975.52,"tabs":1732118630.74,"crypto":1731953970.55}
+1732122212195	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1731953970.55
+1732122212195	Sync.Synchronizer	DEBUG	Refreshing client list.
+1732122212196	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1732122212197	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1732122212418	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264523642/storage/clients?full=1&limit=1000
+1732122212421	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 1 reconciled.
+1732122212422	FirefoxAccounts	INFO	fetching updated device list
+1732122212423	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1730307812422
+1732122212987	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1730307812422 200
+1732122212987	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1730307812422: code: 200 - Status text: 
+1732122212987	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 30013
+1732122212987	FirefoxAccounts	INFO	Got new device list: 33046878d8929e68b67515bb8b131c0d
+1732122212988	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1732122212988	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1732122212988	FirefoxAccounts	TRACE	Our push subscription looks OK
+1732122212988	FirefoxAccounts	INFO	updating the cache
+1732122212988	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1732122212989	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1732122212989	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1732122212990	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1732122212992	Sync.Synchronizer	INFO	Updating enabled engines: 1 clients.
+1732122212993	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1732122212993	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122212994	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1732122213014	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213014	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1732122213023	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1732122213023	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1732122213028	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213029	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1732122213031	Sync.Engine.Tabs	INFO	Posting 1 records of 2563 bytes with batch=true
+1732122213032	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1732122213033	Sync.Collection	DEBUG	POST Length: 2563
+1732122213319	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264523642/storage/tabs?batch=true&commit=true
+1732122213335	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID kxqo3OrxhQ-6 matches existing
+1732122213337	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213337	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1732122213339	Sync.Engine.Bookmarks.Mirror	DEBUG	Building local tree
+1732122213339	Sync.Engine.Bookmarks.Mirror	DEBUG	Building remote tree
+1732122213340	Sync.Engine.Bookmarks.Mirror	DEBUG	Building merged tree
+1732122213340	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying merged tree
+1732122213340	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 2.612ms
+1732122213340	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1732122213340	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1732122213341	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1732122213342	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1732122213342	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Screenshots (version=39.0.1, id=screenshots@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon WebCompat Reporter (version=2.1.0, id=webcompat-reporter@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=134.3.0, id=webcompat@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.4.1, id=default-theme@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=2.0.0, id=addons-search-detection@mozilla.com)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.3, id=firefox-compact-light@mozilla.org)
+1732122213343	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.3.2, id=firefox-compact-dark@mozilla.org)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.4, id=firefox-alpenglow@mozilla.org)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.61.0, id=uBlock0@raymondhill.net)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Enhancer for YouTube™ (version=2.0.128, id=enhancerforyoutube@maximerf.addons.mozilla.org)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Sidebery (version=5.2.0, id={3c078156-979c-498b-8990-85f7987dd929})
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark Reader (version=4.9.96, id=addon@darkreader.org)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Auto Tab Discard (version=0.6.7, id={c2c003ee-bd69-42a2-b0e9-6f34222cb046})
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Userchrome Toggle Extended (version=2.0.1, id=userchrome-toggle-extended@n2ezr.ru)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Gesturefy (version=3.2.13, id={506e023c-7f2b-40a3-8066-bc5deb40aebe})
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Color (version=2.1.7, id=FirefoxColor@mozilla.com)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Adaptive Tab Bar Color (version=2.1.4, id=ATBC@EasonWong)
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Black (version=3.0.2, id={9b84b6b4-07c4-4b4b-ba21-394d86f6e9ee})
+1732122213344	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.3.2, id=gmp-gmpopenh264)
+1732122213345	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1732122213347	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213347	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1732122213348	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213348	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1732122213348	Sync.Engine.History	DEBUG	Checking if server sync ID Fv9W3TEoHhvS matches existing
+1732122213351	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213352	Sync.Engine.History	INFO	Uploading 14 outgoing records
+1732122213367	Sync.Engine.History	INFO	Posting 14 records of 7800 bytes with batch=true
+1732122213367	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1732122213368	Sync.Collection	DEBUG	POST Length: 7800
+1732122213728	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/264523642/storage/history?batch=true&commit=true
+1732122213732	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1732122213733	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1732122213734	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1732122213734	Sync.Doctor	INFO	Skipping validation of passwords: too recent since last validation attempt
+1732122213734	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1732122213734	Sync.Doctor	INFO	Skipping validation of bookmarks: too recent since last validation attempt
+1732122213734	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1732122213734	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1732122213734	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1732122213734	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1732122213734	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1732122213734	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1732122213734	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1732122213735	Sync.Synchronizer	INFO	Sync completed at 2024-11-20 17:03:33 after 12.71 secs.
+1732122213736	Sync.Declined	DEBUG	Handling remote declined: []
+1732122213736	Sync.Declined	DEBUG	Handling local declined: []
+1732122213736	Sync.Declined	DEBUG	Declined changed? false
+1732122213736	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.

@@ -1,0 +1,3 @@
+{"timestamp":10735455,"category":"protocolhandler.mailto","name":"visit","extra":{"triggered_externally":"true","glean_timestamp":"1729694342599"}}
+{"timestamp":10759897,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2024-10-23T15:39+01:00","glean_timestamp":"1729694367041"},"execution_counter":1}
+{"timestamp":10759324,"category":"protocolhandler.mailto","name":"visit","extra":{"triggered_externally":"true","glean_timestamp":"1729694366468"},"execution_counter":1}

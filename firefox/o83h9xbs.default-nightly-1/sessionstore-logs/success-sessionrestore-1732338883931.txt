@@ -1,0 +1,15 @@
+1732338881364	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1732338881375	SessionStore	DEBUG	Successful file read of recovery file
+1732338881375	SessionStore	DEBUG	Completed SessionFile.read() with result.origin: recovery
+1732338881376	SessionStore	DEBUG	isAutomaticRestoreEnabled: false
+1732338881376	SessionStore	DEBUG	Discarding previous session as we have initialState
+1732338881376	SessionStore	DEBUG	Previous shutdown ok? true, reason: final-state-write-incomplete
+1732338882333	SessionStore	DEBUG	initialState contains 0 pinned tabs
+1732338883284	SessionStore	DEBUG	initSession willRestore: true, SessionStartup.sessionType: 1
+1732338883284	SessionStore	DEBUG	initSession, restoreAsCrashed, crashes: 2
+1732338883284	SessionStore	DEBUG	initSession, will show about:sessionrestore
+1732338883286	SessionStore	DEBUG	restoreWindows will restore 1 windows
+1732338883287	SessionStore	DEBUG	restoreWindow, will restore 1 tabs and 0 tab groups, restoreTabsLazily: true
+1732338883346	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 1 tabs
+1732338883359	SessionStore	DEBUG	sessionstore-windows-restored
+1732338883383	SessionStore	DEBUG	All 1 windows restored

@@ -1,0 +1,90 @@
+1729687266870	Sync.LogManager	DEBUG	Flushing file log
+1729687266870	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687266870	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1729687266871	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687266871	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687266871	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687266871	Sync.Telemetry	WARN	Failed to set sync identifiers in the deletion-request ping: Error: _registerOrUpdateDevice called without a session token
+1729687266897	Sync.LogManager	DEBUG	Log cleanup threshold time: 1728823266897
+1729687266899	Sync.LogManager	DEBUG	Done deleting files.
+1729687432098	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1729687432103	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687437104	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1729687437104	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687437104	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687437104	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687437104	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1729687437104	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687437104	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687437105	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687437105	Sync.Engine.Tabs	WARN	quicksync sync failed: Error: _registerOrUpdateDevice called without a session token(resource://gre/modules/FxAccountsDevice.sys.mjs:413:13) JS Stack trace: _registerOrUpdateDevice@FxAccountsDevice.sys.mjs:413:13
+_updateDeviceRegistrationIfNecessary@FxAccountsDevice.sys.mjs:392:19
+1729687437105	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1729687440623	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1729687440636	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687440645	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687441480	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687445646	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1729687445646	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687445646	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687445646	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687445646	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1729687445646	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687445647	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687445647	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687445647	Sync.Engine.Tabs	WARN	quicksync sync failed: Error: _registerOrUpdateDevice called without a session token(resource://gre/modules/FxAccountsDevice.sys.mjs:413:13) JS Stack trace: _registerOrUpdateDevice@FxAccountsDevice.sys.mjs:413:13
+_updateDeviceRegistrationIfNecessary@FxAccountsDevice.sys.mjs:392:19
+1729687445647	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1729687452483	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1729687452483	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1729687452483	FirefoxAccounts	DEBUG	fxa_status received
+1729687452483	FirefoxAccounts	DEBUG	service: sync
+1729687452483	FirefoxAccounts	DEBUG	is private browsing: false
+1729687452734	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1729687452745	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687453086	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687453967	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1729687453967	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1729687453967	FirefoxAccounts	DEBUG	fxa_status received
+1729687453967	FirefoxAccounts	DEBUG	service
+1729687453967	FirefoxAccounts	DEBUG	is private browsing: false
+1729687454305	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687454609	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1729687454609	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1729687454609	FirefoxAccounts	DEBUG	fxa_status received
+1729687454609	FirefoxAccounts	DEBUG	service: sync
+1729687454609	FirefoxAccounts	DEBUG	is private browsing: false
+1729687454852	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687454872	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687455199	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1729687457216	FirefoxAccounts	DEBUG	FxAccountsWebChannel message received: fxaccounts:fxa_status
+1729687457216	FirefoxAccounts	TRACE	_receiveMessage for command fxaccounts:fxa_status
+1729687457216	FirefoxAccounts	DEBUG	fxa_status received
+1729687457216	FirefoxAccounts	DEBUG	service
+1729687457216	FirefoxAccounts	DEBUG	is private browsing: false
+1729687457757	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1729687457757	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687457757	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687457757	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687457757	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1729687457757	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687457757	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687457757	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1729687457758	Sync.Engine.Tabs	WARN	quicksync sync failed: Error: _registerOrUpdateDevice called without a session token(resource://gre/modules/FxAccountsDevice.sys.mjs:413:13) JS Stack trace: _registerOrUpdateDevice@FxAccountsDevice.sys.mjs:413:13
+_updateDeviceRegistrationIfNecessary@FxAccountsDevice.sys.mjs:392:19
+1729687457758	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1729687841591	Sync.Service	DEBUG	User-Agent: Firefox/133.0a1 (Linux x86_64) FxSync/1.135.0.20241023093655.desktop
+1729687841591	Sync.Service	INFO	Starting sync at 2024-10-23 13:50:41 in browser session u-FhUvgv1Z8r
+1729687841591	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1729687841596	Sync.Status	INFO	Resetting Status.
+1729687841596	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1729687841597	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1729687841597	Sync.SyncAuthManager	INFO	Unable to fetch keys (master-password locked?), so aborting token fetch
+1729687841597	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1729687841597	Sync.SyncAuthManager	INFO	Failed to fetch the cluster URL: Error: Can't fetch a token as we can't get keys(resource://services-sync/sync_auth.sys.mjs:384:13) JS Stack trace: _fetchTokenForUser@sync_auth.sys.mjs:384:13
+1729687841598	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't fetch a token as we can't get keys(resource://services-sync/sync_auth.sys.mjs:384:13) JS Stack trace: _fetchTokenForUser@sync_auth.sys.mjs:384:13
+1729687841599	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1729687841600	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1729687841605	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't fetch a token as we can't get keys(resource://services-sync/sync_auth.sys.mjs:384:13) JS Stack trace: _fetchTokenForUser@sync_auth.sys.mjs:384:13
+1729687841605	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1729687841605	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available

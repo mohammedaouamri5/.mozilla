@@ -1,0 +1,29 @@
+1731234450911	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1731234450968	SessionStore	DEBUG	Successful file read of recovery file
+1731234450968	SessionStore	DEBUG	Completed SessionFile.read() with result.origin: recovery
+1731234450972	SessionStore	DEBUG	isAutomaticRestoreEnabled: true
+1731234450973	SessionStore	DEBUG	Previous shutdown ok? true, reason: final-state-write-incomplete
+1731234451482	SessionStore	DEBUG	initialState contains 0 pinned tabs
+1731234451650	SessionStore	DEBUG	initSession willRestore: true, SessionStartup.sessionType: 2
+1731234451650	SessionStore	DEBUG	initSession, will autorestore
+1731234451653	SessionStore	DEBUG	Restored 5 closed windows
+1731234451653	SessionStore	DEBUG	restoreWindows will restore 4 windows
+1731234451653	SessionStore	DEBUG	Opening window with features: chrome,suppressanimation,all,non-private,dialog=0,width=964,height=1055,screenX=45,screenY=45, argString: .
+1731234451655	SessionStore	DEBUG	Opening window with features: chrome,suppressanimation,all,non-private,dialog=0,width=1920,height=1080,screenX=45,screenY=45, argString: .
+1731234451657	SessionStore	DEBUG	Opening window with features: chrome,suppressanimation,all,non-private,dialog=0,width=1920,height=1080,screenX=45,screenY=45, argString: .
+1731234451962	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1731234451985	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1731234452015	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1731234452026	SessionStore	DEBUG	restoreWindow, will restore 4 tabs and 0 tab groups, restoreTabsLazily: true
+1731234452032	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 4 tabs
+1731234452050	SessionStore	WARN	waiting on 3 windows to be restored before sending restore complete notifications.
+1731234452050	SessionStore	DEBUG	restoreWindow, will restore 2 tabs and 0 tab groups, restoreTabsLazily: true
+1731234452053	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 2 tabs
+1731234452057	SessionStore	WARN	waiting on 2 windows to be restored before sending restore complete notifications.
+1731234452061	SessionStore	DEBUG	restoreWindow, will restore 1 tabs and 0 tab groups, restoreTabsLazily: true
+1731234452062	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 1 tabs
+1731234452063	SessionStore	WARN	waiting on 1 windows to be restored before sending restore complete notifications.
+1731234452068	SessionStore	DEBUG	restoreWindow, will restore 1 tabs and 0 tab groups, restoreTabsLazily: true
+1731234452069	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 1 tabs
+1731234452070	SessionStore	DEBUG	sessionstore-windows-restored
+1731234452095	SessionStore	DEBUG	All 1 windows restored

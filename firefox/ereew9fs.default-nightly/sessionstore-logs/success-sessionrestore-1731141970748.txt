@@ -1,0 +1,24 @@
+1731141968724	SessionStore	DEBUG	Can't read session file which doesn't exist: clean
+1731141968762	SessionStore	DEBUG	Successful file read of recovery file
+1731141968762	SessionStore	DEBUG	Completed SessionFile.read() with result.origin: recovery
+1731141968765	SessionStore	DEBUG	isAutomaticRestoreEnabled: true
+1731141968765	SessionStore	DEBUG	Previous shutdown ok? true, reason: final-state-write-incomplete
+1731141969357	SessionStore	DEBUG	initialState contains 0 pinned tabs
+1731141969566	SessionStore	DEBUG	initSession willRestore: true, SessionStartup.sessionType: 2
+1731141969566	SessionStore	DEBUG	initSession, will autorestore
+1731141969568	SessionStore	DEBUG	Restored 5 closed windows
+1731141969568	SessionStore	DEBUG	restoreWindows will restore 3 windows
+1731141969568	SessionStore	DEBUG	Opening window with features: chrome,suppressanimation,all,non-private,dialog=0,width=1920,height=1080,screenX=45,screenY=45, argString: .
+1731141969570	SessionStore	DEBUG	Opening window with features: chrome,suppressanimation,all,non-private,dialog=0,width=1924,height=1084,screenX=45,screenY=45, argString: .
+1731141969816	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1731141969840	SessionStore	DEBUG	onBeforeBrowserWindowShown, session already initialized, initializing window
+1731141969850	SessionStore	DEBUG	restoreWindow, will restore 2 tabs and 0 tab groups, restoreTabsLazily: true
+1731141969853	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 2 tabs
+1731141969873	SessionStore	WARN	waiting on 2 windows to be restored before sending restore complete notifications.
+1731141969878	SessionStore	DEBUG	restoreWindow, will restore 20 tabs and 0 tab groups, restoreTabsLazily: true
+1731141969895	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 20 tabs
+1731141969916	SessionStore	WARN	waiting on 1 windows to be restored before sending restore complete notifications.
+1731141969916	SessionStore	DEBUG	restoreWindow, will restore 4 tabs and 0 tab groups, restoreTabsLazily: true
+1731141969920	SessionStore	DEBUG	restoreWindow, createTabsForSessionRestore returned 4 tabs
+1731141969924	SessionStore	DEBUG	sessionstore-windows-restored
+1731141969953	SessionStore	DEBUG	All 1 windows restored

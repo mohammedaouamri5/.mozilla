@@ -1,0 +1,120 @@
+1731774958170	Sync.LogManager	DEBUG	Flushing file log
+1731774958171	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1731774958209	Sync.LogManager	DEBUG	Log cleanup threshold time: 1730910958209
+1731774958250	Sync.LogManager	DEBUG	Done deleting files.
+1731774959724	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1731774964808	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731774964808	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731774964822	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1731774964823	Sync.Engine.Tabs	INFO	Posting 1 records of 10199 bytes with batch=true
+1731774964823	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731774964824	Sync.Collection	DEBUG	POST Length: 10199
+1731774965496	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/tabs?batch=true&commit=true
+1731774965500	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1731775004878	FirefoxAccounts	TRACE	observed topic=push-message, data=https://web.telegram.org/a/, subject=[xpconnect wrapped nsISupports]
+1731775093837	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1731775094555	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775095460	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775098894	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731775098894	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731775098902	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1731775098906	Sync.Engine.Tabs	INFO	Posting 1 records of 10199 bytes with batch=true
+1731775098906	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1731775098906	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731775098907	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731775098907	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731775098907	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1731775098909	Sync.Collection	DEBUG	POST Length: 10199
+1731775099119	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1731775099239	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/tabs?batch=true&commit=true
+1731775099244	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1731775454035	FirefoxAccounts	TRACE	observed topic=push-message, data=https://web.telegram.org/a/, subject=[xpconnect wrapped nsISupports]
+1731775454541	FirefoxAccounts	TRACE	observed topic=push-message, data=https://web.telegram.org/a/, subject=[xpconnect wrapped nsISupports]
+1731775454542	FirefoxAccounts	TRACE	observed topic=push-message, data=https://web.telegram.org/a/, subject=[xpconnect wrapped nsISupports]
+1731775454543	FirefoxAccounts	TRACE	observed topic=push-message, data=https://web.telegram.org/a/, subject=[xpconnect wrapped nsISupports]
+1731775454606	FirefoxAccounts	TRACE	observed topic=push-message, data=https://web.telegram.org/a/, subject=[xpconnect wrapped nsISupports]
+1731775548392	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1731775548463	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775548594	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775548621	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775548806	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775548868	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775549436	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775549547	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775550666	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775550692	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775550787	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731775580883	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1731775580884	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731775580885	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731775580885	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731775580889	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1731775584637	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241114095720.desktop
+1731775584654	Sync.Service	INFO	Starting sync at 2024-11-16 16:46:24 in browser session CudxyST0GdAd
+1731775584654	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731775585272	Sync.Status	INFO	Resetting Status.
+1731775585272	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1731775586994	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1731775588343	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731775588343	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731775589001	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1731775589052	Sync.Engine.Tabs	INFO	Posting 1 records of 3223 bytes with batch=true
+1731775589053	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731775589056	Sync.Collection	DEBUG	POST Length: 3223
+1731775593601	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/collections
+1731775593603	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/configuration
+1731775593605	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731775593607	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/tabs?batch=true&commit=true
+1731775593633	Sync.Telemetry	INFO	Notification for engine tabs but it isn't current
+1731775593829	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/configuration
+1731775593830	Sync.Service	DEBUG	Fetching global metadata record
+1731775593831	Sync.Service	DEBUG	Weave Version: 1.136.0 Local Storage: 5 Remote Storage: 5
+1731775593832	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1731775593833	Sync.Service	INFO	Testing info/collections: {"forms":1731759018.04,"addons":1730222268.46,"crypto":1729687059.5,"tabs":1731775136.87,"bookmarks":1729687727.54,"extension-storage":1731537525.64,"clients":1731668406.2,"history":1731774486.58,"meta":1729687725.36,"passwords":1731085395.84,"prefs":1731605978.03}
+1731775593833	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1729687059.5
+1731775593834	Sync.Synchronizer	DEBUG	Refreshing client list.
+1731775593837	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1731775593843	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731775594470	Sync.Collection	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/clients?full=1&limit=1000
+1731775594470	Sync.Collection	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/clients?full=1&limit=1000 failed with status 503
+1731775594665	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1731775594665	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1731775594665	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1731775594666	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1731775594666	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1731779194666
+1731775594667	Sync.Status	DEBUG	Status for engine clients: error.engine.reason.record_download_fail
+1731775594667	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1731775594669	Sync.Collection	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:220:21) JS Stack trace: _processResponse/<@resource.sys.mjs:220:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@LogManager.sys.mjs:147:44
+log@Log.sys.mjs:376:16
+debug@Log.sys.mjs:396:10
+observe@policies.sys.mjs:872:21
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:183:19
+WrappedNotify@util.sys.mjs:193:17
+1731775594681	Sync.Collection	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1731775594667	Sync.ErrorHandler	DEBUG	clients failed: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/storage/clients?full=1&limit=1000", status:503, success:false, headers:{'alt-svc':"clear", 'content-length':"162", 'content-type':"text/html", date:"Sat, 16 Nov 2024 16:47:12 GMT", etag:"\"6735ae20-a2\"", 'retry-after':"3600", server:"openresty/1.15.8.2", via:"1.1 google", 'x-firefox-spdy':"h2"}, get obj() {
+    [native code]
+}, failureCode:"error.engine.reason.record_download_fail"})
+1731775594690	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1731775594701	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1731775594702	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1731775594702	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1731775594706	Sync.Synchronizer	INFO	Aborting sync for failure in prefs
+1731775594711	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1731775594720	Sync.Synchronizer	INFO	Sync completed at 2024-11-16 16:46:34 after 9.44 secs.
+1731775594720	Sync.Declined	DEBUG	Handling remote declined: []
+1731775594720	Sync.Declined	DEBUG	Handling local declined: []
+1731775594720	Sync.Declined	DEBUG	Declined changed? false
+1731775594720	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1731775594720	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1731775594736	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 4080270.808276606 ms.
+1731775594736	Sync.SyncScheduler	DEBUG	Next sync in 4080270.808276606 ms. (why=client-backoff-schedule)

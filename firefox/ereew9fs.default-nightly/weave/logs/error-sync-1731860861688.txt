@@ -1,0 +1,39 @@
+1731860852075	Sync.LogManager	DEBUG	Flushing file log
+1731860852085	Sync.LogManager	DEBUG	Log cleanup threshold time: 1730996852085
+1731860852136	Sync.LogManager	DEBUG	Done deleting files.
+1731860855631	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731860856771	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731860861595	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1731860861596	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1731860861602	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1731860861604	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241116092601.desktop
+1731860861604	Sync.Service	INFO	Starting sync at 2024-11-17 16:27:41 in browser session 0tpNbFz-Svvx
+1731860861605	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731860861612	Sync.Status	INFO	Resetting Status.
+1731860861612	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1731860861613	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731860861614	Sync.SyncAuthManager	INFO	Getting sync key
+1731860861614	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731860861614	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731860861614	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731860861614	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1731860861615	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1731860861615	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1731860861615	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1731860861658	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1731860861659	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1731860861659	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1731860861659	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1731860861660	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731860861660	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1731860861662	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731860861662	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731860861680	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/263878404/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1731860861680	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1731860861680	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1731860861681	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1731860861681	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1731860861682	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1731860861688	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

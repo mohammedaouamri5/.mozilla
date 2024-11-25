@@ -1,0 +1,61 @@
+1731579619190	Sync.LogManager	DEBUG	Flushing file log
+1731579619193	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731579619209	Sync.LogManager	DEBUG	Log cleanup threshold time: 1730715619209
+1731579619288	Sync.LogManager	DEBUG	Done deleting files.
+1731579619995	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1731579620058	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579620081	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579620247	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579620294	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579620829	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579624996	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1731579632392	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1731579632425	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579632499	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1731579632609	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731579637395	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1731580057607	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1731580057607	Sync.Service	DEBUG	User-Agent: Firefox/134.0a1 (Linux x86_64) FxSync/1.136.0.20241113094833.desktop
+1731580057607	Sync.Service	INFO	Starting sync at 2024-11-14 10:27:37 in browser session qP6dtgeQpkt0
+1731580057607	Sync.Service	DEBUG	In sync: should login.
+1731580057608	Sync.Service	INFO	User logged in successfully - verifying login.
+1731580057608	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1731580057608	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731580057609	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731580057609	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731580057609	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1731580057610	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1731580057611	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1731580057611	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1731580057611	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1731580057611	Sync.SyncAuthManager	INFO	Getting sync key
+1731580057611	FirefoxAccounts	DEBUG	getOAuthToken enter
+1731580057612	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1731580057612	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1731580057612	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1731580057612	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1731580057612	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1731580057612	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1731580057645	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1731580057645	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1731580057645	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1731580057646	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1731580057646	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1731580057647	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1731580057647	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1731580057647	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1731580057648	Sync.SyncAuthManager	INFO	Failed to fetch the cluster URL: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1731580057648	Sync.Service	DEBUG	verifyLogin failed: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1731580057648	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1731580057648	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1731580057648	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1731580057648	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1731580057649	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1731580057651	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.sys.mjs:1041:15) JS Stack trace: onNotify@service.sys.mjs:1041:15
+1731580057651	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1731580057651	Sync.Service	DEBUG	Not syncing: login returned false.
+1731580057651	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1731580057651	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
